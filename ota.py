@@ -49,6 +49,7 @@ left_last_position = None
 right_enc = rotaryio.IncrementalEncoder(board.GP26, board.GP27)  #first one is a second is b
 right_last_position = None
 while True:
+    print("Helloweewoo)
     if Fsensor.range < 70:
         motor1.duty_cycle = 0
         motor2.duty_cycle = 0
